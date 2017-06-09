@@ -1,0 +1,42 @@
+.recent {
+    text-align: center;
+    h2 {
+        color: #FFF;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        font-weight: 600;
+    }
+    p {
+        color: $brand-light-green;
+        margin-bottom: 60px;
+    }
+
+    .item {
+        margin-top: 30px;
+        padding: 100px 0;
+    }
+
+    .show-more {
+        margin-top: 40px;
+        font-weight: 600;
+    }
+
+    ul li {
+        a {
+            color: #FFF;
+            font-weight: 600;
+            border: 2px solid transparent;
+            border-radius: 4px;
+            padding: 8px 20px;
+
+            &:hover {
+                border: 2px solid #FFF;
+            }
+        }
+        
+       &.active a {
+            background: #FFF;
+            color: $brand-green;
+        }
+    }
+}

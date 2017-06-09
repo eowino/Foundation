@@ -1,0 +1,16 @@
+.button {
+    padding: 14px 30px;
+    border-radius: 5px;
+}
+
+.button-primary,
+.button-primary:hover, {
+    background: $btn-primary;
+    color: #FFF;
+}
+
+.button-secondary,
+.button-secondary:hover, {
+    background: #FFF;
+    color: $btn-primary;
+}

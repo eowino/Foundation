@@ -1,0 +1,150 @@
+.bg-orange {
+  background: #F8BC3B; }
+
+.bg-green {
+  background: #27AE60; }
+
+.bg-white {
+  background: #FFF; }
+
+.bg-grey {
+  background: #3A3A3A; }
+
+.bg-red {
+  background: #DB5940; }
+
+.bg-yellow {
+  background: #FEC400; }
+
+.bg-baby-blue {
+  background: #7ECEFD; }
+
+.bg-pale-blue {
+  background: #D1E1ED; }
+
+.bg-slate-blue {
+  background: #2C3E50; }
+
+.bg-midnight {
+  background: #1F1F1F; }
+
+.bg-blue {
+  background: #028CA6; }
+
+body {
+  font-family: 'Open Sans', sans-serif; }
+
+.container {
+  padding: 40px 20px; }
+
+.container-space {
+  padding: 80px 20px; }
+
+.inline-list {
+  list-style-type: none; }
+  .inline-list li {
+    margin-bottom: 20px; }
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Lato', sans-serif; }
+
+header.main-header {
+  margin-bottom: 40px; }
+
+.main-header .brand a {
+  display: block;
+  font-family: 'Pacifico', cursive;
+  font-size: 2em;
+  color: #393F4A;
+  margin-bottom: 20px; }
+
+nav.main-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  float: right; }
+
+nav.main-nav ul li {
+  display: inline-block;
+  margin-right: 20px; }
+  nav.main-nav ul li:last-child {
+    margin-right: 0; }
+  nav.main-nav ul li a {
+    font-size: 78%;
+    text-transform: uppercase;
+    font-weight: 600;
+    vertical-align: baseline; }
+    nav.main-nav ul li a:not(.button) {
+      color: #393F4A; }
+  nav.main-nav ul li .button.large {
+    font-size: 78%;
+    padding: 17px 30px; }
+
+.button {
+  padding: 14px 30px;
+  border-radius: 5px; }
+
+.button-primary,
+.button-primary:hover {
+  background: #3A3A3A;
+  color: #FFF; }
+
+.button-secondary,
+.button-secondary:hover {
+  background: #FFF;
+  color: #3A3A3A; }
+
+.feature {
+  margin-top: 20px; }
+  .feature h1 {
+    font-size: 5em;
+    color: #FFF;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 70px;
+    margin-bottom: 40px; }
+
+.features {
+  text-align: center; }
+  .features h5 {
+    font-weight: 600;
+    font-size: 1.4em; }
+  .features p {
+    font-size: 80%;
+    margin-bottom: 40px; }
+  .features img {
+    margin-bottom: 20px; }
+
+.recent {
+  text-align: center; }
+  .recent h2 {
+    color: #FFF;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 600; }
+  .recent p {
+    color: #96EABA;
+    margin-bottom: 60px; }
+  .recent .item {
+    margin-top: 30px;
+    padding: 100px 0; }
+  .recent .show-more {
+    margin-top: 40px;
+    font-weight: 600; }
+  .recent ul li a {
+    color: #FFF;
+    font-weight: 600;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    padding: 8px 20px; }
+    .recent ul li a:hover {
+      border: 2px solid #FFF; }
+  .recent ul li.active a {
+    background: #FFF;
+    color: #27AE60; }
+
+/*# sourceMappingURL=main.css.map */

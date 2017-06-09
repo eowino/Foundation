@@ -1,0 +1,19 @@
+h1, 
+h2, 
+h3, 
+h4, 
+h5 {
+    font-family: 'Lato', sans-serif;
+}
+
+header.main-header {
+    margin-bottom: 40px;
+}
+
+.main-header .brand a{
+    display: block;
+    font-family: 'Pacifico', cursive;
+    font-size: 2em;
+    color: $brand-brown;
+    margin-bottom: 20px;
+}
